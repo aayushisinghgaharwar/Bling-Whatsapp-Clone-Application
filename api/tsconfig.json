@@ -1,21 +1,15 @@
-{
+  {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-        "baseUrl": ".",
     "declaration": false,
     "emitDecoratorMetadata": true,
-        "isolatedModules": false,
-            "removeComments": false,
     "experimentalDecorators": true,
     "lib": [
       "dom",
       "es2015"
     ],
-     "module": "commonjs",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "paths": {
-      "api/*": ["./api/server/*"]
-    },
     "sourceMap": true,
     "target": "es5",
     "skipLibCheck": true,
@@ -24,17 +18,11 @@
     "types": [
 "@types/meteor",
       "@types/meteor-accounts-phone",
-      "@types/meteor-collection-hooks"
-    ]
+      "@types/meteor-publish-composite"  
+      "@types/meteor-collection-hooks"]
   },
-  "include": [
-    "src/**/*.ts",
-    "api/**/*.ts"
-  ],
   "exclude": [
-    "node_modules",
-    "api/node_modules",
-    "api"
+    "node_modules"
   ],
   "compileOnSave": false,
   "atom": {
