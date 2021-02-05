@@ -8,6 +8,7 @@ Tech Stack:
 4.CSS
 5.TypeScript
 
+
 ABSTRACT:
 
 “Bling”, our application, is a chatting application which runs on any PC and mobile on the network. It provides a platform to share text and other media.
